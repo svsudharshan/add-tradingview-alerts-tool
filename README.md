@@ -1,6 +1,7 @@
-# Add TradingView Alerts Tool
+# Add TradingView Alerts Tool & Add Bulk Stocks to Watchlist
 
 **Automatically adds custom alerts to TradingView in bulk**
+**Automatically adds list of stocks to TradingView Watchlist in bulk**
 
 ## Why This Project Exists
 Trading platforms (such as [3Commas](https://3commas.io/)) allow automated trades based on **custom TradingView alerts** which can be pinged using webhook URLs to execute trades. 
