@@ -163,7 +163,9 @@ So you can use a JSON array for the message:
 This script will enable you to add multiple stocks, crypto pairs, etc to your watchlist as a batch process. To do this type the line in the terminal
 
 	npm run add-watchlist altw.yml
-	
+
+## Note: It will add to the watchlist which is active.
+
 ```
 files:
   input: nse.csv
@@ -185,7 +187,7 @@ NSE:MARUTI,
 NSE:DRREDDY,
 
 
-
+The script will add the stocks to watchlist.
 
 
 ## Developer Notes
