@@ -158,10 +158,16 @@ tradingview:
 ```
 
 ### Sample CSV file containing the stocks to be added to watchlist
+**Each stock must be in a separate line and end with a comma**
+
 symbol,
+
 NSE:BAJAJFINSV,
+
 NSE:MARUTI,
+
 NSE:DRREDDY,
+
 
 
 
