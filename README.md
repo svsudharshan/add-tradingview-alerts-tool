@@ -1,6 +1,7 @@
 # Add TradingView Alerts Tool & Add Bulk Stocks to Watchlist
 
 **Automatically adds custom alerts to TradingView in bulk**
+
 **Automatically adds list of stocks to TradingView Watchlist in bulk**
 
 ## Why This Project Exists
