@@ -1,6 +1,6 @@
-# Add TradingView Alerts Tool & Add Bulk Stocks to Watchlist
+# Add Batch alerts in TradingView & Add Bulk Stocks to Watchlist
 
-**Automatically adds custom alerts to TradingView in bulk**
+**Automatically adds custom alerts to TradingView in bulk for any number of instruments**
 
 **Automatically adds list of stocks to TradingView Watchlist in bulk**
 
