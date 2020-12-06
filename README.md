@@ -80,6 +80,22 @@ creates **binance_usdt_pairs.csv**
 
 creates **binance_btc_pairs.csv**
 
+## Setting Alerts on Stocks
+
+Please look at the file nse.csv.  Update this file with stocks of your choice. One stock per line and line must end with a comma. Then save the file.
+
+In your config file, change the line containing
+
+```yaml
+files:
+  input: nse.csv
+```
+
+Then when your run npm run add-alerts, it will use nse.csv as input and set the alerts.
+
+## ---
+
+
 ## Adding TradingView Alerts 
 
 ### Before you run the script
