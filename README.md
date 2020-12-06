@@ -43,6 +43,8 @@ files:
 tradingview:
   # The chart which has the indicator you'd like to use
   chartUrl: https://www.tradingview.com/chart/WS5uK1l5/
+  # timeframe could be 1,5,15, 60,120 etc. This will change chart timeframe to set time frame before applying the alert.
+  timeframe: 1
 alert:
   indicator: MTF Deviation
   signal: Tier1 long
@@ -58,6 +60,8 @@ alert:
         "delay_seconds": 0,
         "pair": "{{quote}}_{{base}}"
     }
+  # or simply one message popup only
+  # message: YourAlerthasTriggered
 ```
 
 ## Fetching Trading Pairs
@@ -136,14 +140,28 @@ So you can use a JSON array for the message:
     }]
 ```
 
+### Adding stocks,Instruments to your watchlist
 
-## Donations
+This script will enable you to add multiple stocks, crypto pairs, etc to your watchlist as a batch process. To do this type the line in the terminal
 
-Not necessary, but motivating to keep the project up to date
+	npm run add-watchlist altw.yml
+	
+```
+files:
+  input: nse.csv
+tradingview:
+  # The chart which has the indicator you'd like to use
+  chartUrl: https://in.tradingview.com/chart/yourchartuniqueID/
 
-Send ETH to 
+```
 
-0x37f79c0bAC4068a56E36694c5F5d8853F54022cb
+### Sample CSV file containing the stocks to be added to watchlist
+symbol,
+NSE:BAJAJFINSV,
+NSE:MARUTI,
+NSE:DRREDDY,
+
+
 
 
 ## Developer Notes
