@@ -190,6 +190,11 @@ NSE:DRREDDY,
 The script will add the stocks to watchlist.
 
 
+## PriceCatch Trading System
+
+Please check out PriceCatch Trading System at (http://pricecatch.trade) for high probability buy signals on stocks, crypto, forex, commodities etc. 
+
+
 ## Developer Notes
 
 Install [xpath generator](https://chrome.google.com/webstore/detail/xpath-generator/dphfifdfpfabhbkghlmnkkdghbmocfeb) 
