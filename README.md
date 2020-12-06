@@ -164,7 +164,7 @@ This script will enable you to add multiple stocks, crypto pairs, etc to your wa
 
 	npm run add-watchlist altw.yml
 
-## Note: It will add to the watchlist which is active.
+#### Note: It will add to the watchlist which is active.
 
 ```
 files:
