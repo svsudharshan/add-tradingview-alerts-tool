@@ -1,0 +1,6 @@
+files:
+  input: nse.csv
+  # exclude: blacklist.csv
+tradingview:
+  # The chart which has the indicator you'd like to use
+  chartUrl: https://in.tradingview.com/chart/IvJLmuoU/

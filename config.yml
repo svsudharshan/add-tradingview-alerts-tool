@@ -1,0 +1,13 @@
+files:
+  input: nse.csv
+  # exclude: blacklist.csv
+tradingview:
+  # The chart which has the indicator you'd like to use
+  chartUrl: https://in.tradingview.com/chart/IvJLmuoU/
+  timeframe: 1
+alert:
+  indicator: PC-Main-S
+  signal: Bullish Signal at 0 Level
+  option: Once Per Bar Close
+  message: Bullish Signal at 0 Level
+  
