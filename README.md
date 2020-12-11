@@ -31,20 +31,21 @@ MacOS/Windows/Linux
 
 Open Terminal/PowerShell and run the following:
 
-    git clone https://github.com/alleyway/add-tradingview-alerts-tool.git
+    git clone https://github.com/svsudharshan/add-tradingview-alerts-tool.git
     cd add-tradingview-alerts-tool
     npm install
     cp config.example.yml config.yml
     
-Edit your config.yml file to include your 3commas information as specified in your bot's tradingview hook as well as a URL to the TradingView chart which has the indicator
+NOTE: You musst first edit your config.yml file to include your 3commas information as specified in your bot's tradingview hook as well as a URL to the TradingView chart which has the indicator
 
 ```yaml
 files:
+  # input: anycsv file. for format look at nse.csv
   input: binance_usdt_pairs.csv
   exclude: blacklist.csv
 tradingview:
   # The chart which has the indicator you'd like to use
-  chartUrl: https://www.tradingview.com/chart/WS5uK1l5/
+  chartUrl: https://www.tradingview.com/chart/your-chart-unique-ID-here/
   # timeframe could be 1,5,15, 60,120 etc. This will change chart timeframe to set time frame before applying the alert.
   timeframe: 1
 alert:
@@ -99,6 +100,8 @@ Then when your run npm run add-alerts, it will use nse.csv as input and set the 
 ## Adding TradingView Alerts 
 
 ### Before you run the script
+
+
 
 Create an alert with the default options you'd like to use.
 
@@ -207,4 +210,4 @@ edit version in package.json
 
     npm publish
 
-[edit releases](https://github.com/alleyway/add-tradingview-alerts-tool/releases)
+[edit releases](https://github.com/svsudharshan/add-tradingview-alerts-tool/releases)
